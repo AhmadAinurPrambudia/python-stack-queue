@@ -7,3 +7,5 @@ Dalam Python, Anda dapat dengan mudah membuat stack menggunakan list, yang merup
 Stack di Python juga sangat berguna dalam pemrograman rekursif dan dalam menangani penanganan kesalahan (error handling). Dengan stack, Anda dapat mengatasi kesalahan secara efektif dan menghindari terjadinya deadlock dan memory leak.
 
 Kesimpulannya, stack Python adalah fitur yang sangat berguna dan powerful yang dapat digunakan dalam berbagai jenis aplikasi dan proyek. Jika Anda ingin mengembangkan aplikasi yang efisien dan andal, maka stack Python adalah salah satu fitur yang tidak boleh Anda lewatkan.
+
+Dan hari ini saya berkesempatan untuk mempelajari bahasa pemrograman yang katanya sangat populer dan powerfull
