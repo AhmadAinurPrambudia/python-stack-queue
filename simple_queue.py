@@ -1,18 +1,16 @@
+fromcollectionsimportdeque
 
-stack = ([1,2,3,4,5]) 
-print('antrian sekarang:', stack)
+queue= deque([1,2,3,4,5])
+print('antriansekarang:',queue)
 
-stack.append(6)
+queue.append(6)
+print('antrianmasuk:',6)
+print('antriansekarang:',queue)
 
-print('antrian masuk:', 6)
-print('antrian sekarang:', stack)
+queue.append(7)
+print('antrianmasuk:',7)
+print('antriansekarang:',queue)
 
-stack.append(7)
-
-print('antrian masuk:', 7)
-print('antrian sekarang', stack)
-
-out = stack.popleft()
-
-print('antrian keluar:', out) 
-print('antrian sekarang:',stack)
+out=queue.popleft()
+print('antriankeluar:',out)
+print('antriansekarang: ',queue)
