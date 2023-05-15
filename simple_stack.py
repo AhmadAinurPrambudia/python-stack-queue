@@ -1,15 +1,17 @@
-stack= [1,2,3,4,5] print('tumpukan sekarang: ', stack)
+stack = ([1,2,3,4,5]) 
+print('antrian sekarang:', stack)
 
 stack.append(6)
 
-print('tumpukan masuk: ', 6) print('tumpukan sekarang: ', stack)
+print('antrian masuk:', 6)
+print('antrian sekarang:', stack)
 
-stack.append(7) print('tumpukan masuk: ', 7)
+stack.append(7)
 
-print('tumpukan sekarang: ', stack)
+print('antrian masuk:', 7)
+print('antrian sekarang', stack)
 
-out=stack.pop()
+out = stack.popleft()
 
-print('tumpukan keluar: ', out)
-
-print('tumpukan sekarang: stack)
+print('antrian keluar:', out) 
+print('antrian sekarang:',stack)
