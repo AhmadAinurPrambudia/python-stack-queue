@@ -1,21 +1,14 @@
-def reverse sentence(sentence):
+def reverse_sentence(sentence):
+    stack = []
+    reversed_sentence=""
 
-stack=[]
+    for word in sentence.split():
+        stack.append(word)
 
-reversed_sentence
+    while len(stack) > 0:  
+        reversed_sentence += stack.pop()+""
 
-for word in sentence.split():
+    return reversed_sentence.strip()
 
-stack.append(word)
-
-I while len(stack) > 0:
-
-reversed sentence + stack.pop()+"
-
-return reversed sentence.strip()
-
-sentence "Selamat pagi, bagaimana
-
-kabar Anda?"
-
+sentence = "Selamat pagi, bagaimana kabar Anda? "
 print(reverse_sentence(sentence))
