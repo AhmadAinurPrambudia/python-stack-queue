@@ -1,19 +1,18 @@
-from collections import deque
 
-queue deque([1,2,3,4,5]) print('antrian sekarang:', queue)
+stack = ([1,2,3,4,5]) 
+print('antrian sekarang:', stack)
 
-queue.append(6)
+stack.append(6)
 
 print('antrian masuk:', 6)
+print('antrian sekarang:', stack)
 
-print('antrian sekarang:', queue)
+stack.append(7)
 
-queue.append(7)
+print('antrian masuk:', 7)
+print('antrian sekarang', stack)
 
-print('antrian masuk: 7)
+out = stack.popleft()
 
-print('antrian sekarang, queue)
-
-out = queue.popleft()
-
-print('antrian keluar: out) print('antrian sekarang:, queue)
+print('antrian keluar:', out) 
+print('antrian sekarang:',stack)
